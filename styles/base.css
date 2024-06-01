@@ -25,6 +25,10 @@ body {
   color: var(--color-primary);
 }
 
+.main {
+  padding: 150px;
+}
+
 p {
   margin: 0;
 }
