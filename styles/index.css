@@ -8,3 +8,31 @@
 .home .main__sub-heading {
   font-size: 40px;
 }
+
+.header .menu path {
+  fill: var(--color-text-on-primary);
+}
+
+.home .close path {
+  fill: var(--color-text-on-primary);
+}
+
+@media (max-width: 1000px) {
+  .home .main__heading {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 840px) {
+  .home .main__heading {
+    font-size: 50px;
+  }
+
+  .home .main__sub-heading {
+    font-size: 24px;
+  }
+
+  .nav {
+    background-color: var(--color-primary);
+  }
+}
